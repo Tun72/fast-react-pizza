@@ -1,9 +1,10 @@
 function Username() {
     return (
-        <div className="text-sm font-semibold">
+        <div className="hidden text-sm font-semibold md:block">
             Tun
         </div>
     )
 }
 
 export default Username
+                        
