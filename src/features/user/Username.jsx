@@ -1,7 +1,10 @@
+import { useSelector } from "react-redux"
+
 function Username() {
+    const {username} = useSelector((state) => state.user)
     return (
         <div className="hidden text-sm font-semibold md:block">
-            Tun
+           {username}
         </div>
     )
 }
